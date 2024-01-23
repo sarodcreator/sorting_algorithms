@@ -39,4 +39,7 @@ void q_sort(int *array, ssize_t first, ssize_t last, int size);
 
 /* shell sort */
 void shell_sort(int *array, size_t size);
+
+/* cocktail_sort_list.c */
+void cocktail_sort_list(listint_t **list);
 #endif
