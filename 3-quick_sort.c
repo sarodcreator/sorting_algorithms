@@ -54,20 +54,6 @@ void q_sort(int *array, ssize_t first, ssize_t last, int size)
 	}
 }
 
-/**
-*swap - the positions of two elements into an array
-*@array: array
-*@item1: array element
-*@item2: array element
-*/
-void swap(int *array, ssize_t item1, ssize_t item2)
-{
-	int tmp;
-
-	tmp = array[item1];
-	array[item1] = array[item2];
-	array[item2] = tmp;
-}
 
 /**
  *quick_sort - prepare the terrain to quicksort algorithm
