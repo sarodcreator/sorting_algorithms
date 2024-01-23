@@ -1,4 +1,5 @@
 #include "sort.h"
+#include "swap.h"
 
 /**
  *lomuto_partition - lomuto partition sorting scheme implementation
