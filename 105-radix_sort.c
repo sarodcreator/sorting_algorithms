@@ -4,7 +4,6 @@
  * radix_sort - main fuction to sort the array
  * @array: the array to sort
  * @size: size of the array
- * 
  */
 void radix_sort(int *array, size_t size)
 {
