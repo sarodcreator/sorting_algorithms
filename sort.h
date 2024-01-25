@@ -62,5 +62,10 @@ int Max(int *array, int heap_size);
 void sort(int *array, size_t heap_size, int exp, int *tmp);
 void radix_sort(int *array, size_t size);
 
+/* bitonic_sort */
+void bitonic_sort(int *array, size_t size);
+void bitonicsort(int arr[], int low, int nelemnt, int order, int size);
+void _merge(int arr[], int low, int nelemnt, int order);
+
 void *_calloc(unsigned int nmemb, unsigned int size);
 #endif
