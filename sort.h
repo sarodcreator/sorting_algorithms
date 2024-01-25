@@ -67,5 +67,8 @@ void bitonic_sort(int *array, size_t size);
 void bitonicsort(int arr[], int low, int nelemnt, int order, int size);
 void _merge(int arr[], int low, int nelemnt, int order);
 
+/* quick_sort_hoare */
+void quick_sort_hoare(int *array, size_t size);
+
 void *_calloc(unsigned int nmemb, unsigned int size);
 #endif
