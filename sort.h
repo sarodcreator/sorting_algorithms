@@ -57,5 +57,10 @@ void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void maxHeap(int *array, size_t size, int index, size_t heap_size);
 
+/* radix_sort.c */
+int Max(int *array, int heap_size);
+void sort(int *array, size_t heap_size, int exp, int *tmp);
+void radix_sort(int *array, size_t size);
+
 void *_calloc(unsigned int nmemb, unsigned int size);
 #endif
