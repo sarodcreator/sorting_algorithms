@@ -63,4 +63,17 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		p[i] = '\0';
 	return (p);
 }
+
+/**
+ * _swap - function to swap to integers
+ * @a: integer a
+ * @b: integer b
+ **/
+void _swap(int *a, int *b)
+{
+	int t = *a;
+
+	*a = *b;
+	*b = t;
+}
 #endif
