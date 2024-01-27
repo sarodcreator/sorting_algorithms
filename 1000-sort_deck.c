@@ -59,6 +59,7 @@ deck_node_t *swap_card(deck_node_t *card, deck_node_t **deck)
 	deck_node_t *back = card->prev, *current = card;
 	
 	back->next = current->next;
+
 	if (current->next)
 		current->next->prev = back;
 	current->next = back;
@@ -80,6 +81,7 @@ deck_node_t *swap_card(deck_node_t *card, deck_node_t **deck)
 void insertion_sort_deck(deck_node_t **deck)
 {
 	deck_node_t *node;
+
 	if (deck == NULL || *deck == NULL || (*deck)->next == NULL)
 		return;
 	
